@@ -13,22 +13,28 @@
 #budget - expenses
 #Display Results
 
+print("This program calculates and displays travel expenses")
+print()
 
 #prompt user for input and define variable
 budget = int(input('Enter Budget: '))
+print()
 
 #prompt user for input and define variable
 destination = input("Enter your travel destination: ")
+print()
 
 #prompt user for input and define variable
 gas = int(input("How much do you think you will spend on gas? "))
+print()
 
 #prompt user for input and define variable
 hotel = int(input("Approximately, how much will you need for accomodation/hotel? "))
+print()
 
 #prompt user for input and define variable
 food = int(input("Last, how much do you need for food? "))
-
+print()
 
 #Calculate Expenses
 print("------------Travel Expenses------------")
