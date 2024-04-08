@@ -35,7 +35,7 @@ while name != 'done':
     else:
         ot = 0
         ot_pay = 0
-    reg_pay = pay * worked
+    reg_pay = pay * (worked - ot)
     gross_pay = reg_pay + ot_pay
     names.append  (name)
     regpay.append (reg_pay)
